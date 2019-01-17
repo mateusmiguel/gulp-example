@@ -1,0 +1,31 @@
+// Bootstrap - Importo os arquivos necessários p/ compilar o BS de acordo com a necessidade do nosso projeto.
+@import "../../node_modules/bootstrap/scss/functions";
+@import "includes/variables";
+@import "includes/bootstrap";
+
+// Base - Configurações básicas e globais do projeto, como tamanho de h1-h6, espaçamento do <p> etc.
+@import "base/root";
+@import "base/fonts";
+
+// utils - Pequenos 'trechos' de códigos que são uteis e reusados no projeto. Ex: Classes com margens, animações...
+@import "utils/general-utils";
+@import "utils/animations";
+@import "utils/margins";
+@import "utils/textures";
+@import "utils/z-indexes";
+
+// Components - Componentes inteiros que são reutilizados. Ex: Um slider, botões, um card, uma barra de busca completa...
+@import "components/inner-header";
+@import "components/highlight";
+
+// Layout - Partes 'inteiras' da layout, como header, sidebar e footer. Também é considerado um componente.
+@import "layout/header";
+@import "layout/footer";
+
+// Pages - CSS de páginas específicas. São trechos de código que não são componetizados OU modificações de um componente em deternimada página.
+@import "pages/home";
+@import "pages/about";
+
+// Vendors - Arquivos de terceiros, como um CSS do plugin do slider.
+@import "vendors/slick-carousel/slick";
+@import "vendors/slick-carousel/slick-theme";

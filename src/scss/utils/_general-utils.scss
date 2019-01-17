@@ -1,0 +1,54 @@
+// Classes genericas reusadas em todo o projeto.
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+}
+
+.no-select {
+    user-select: none;
+}
+
+.ls-5 {
+    letter-spacing: .05rem;
+}
+
+.lh-2 {
+    line-height: 2;
+}
+
+//Shadows
+.shadow {
+    box-shadow: 0px 60px 90px rgba(0, 0, 0, 0.2);
+}
+
+//Colors hover
+.bg-over {
+    &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(-45deg, rgba(71, 71, 71, .2) 0%, rgba(112, 174, 81, .2) 100%);
+    }
+}
+
+// Linhas
+.bottom-line {
+    position: relative;
+    &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: -15px;
+        left: 0;
+        width: 60px;
+        height: 4px;
+        background: $green;
+    }
+}

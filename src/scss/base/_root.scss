@@ -1,0 +1,21 @@
+// Configurações báicas do HTMl
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+// Efeito de transição para todos os links
+a {
+    transition: all 0.1s linear;
+}
+
+// Mudar a cor da seleção
+::selection {
+    color: $white;
+    background-color: $indigo;
+}

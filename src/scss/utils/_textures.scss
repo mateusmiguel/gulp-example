@@ -1,0 +1,10 @@
+.texture {
+    &-01 {
+        background-image: url("../img/patterns/gplay.png");
+    }
+
+    // Background fixo
+    &-fixed {
+        background-attachment: fixed;
+    }
+}
