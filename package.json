@@ -16,7 +16,7 @@
     "gulp-sourcemaps": "^2.6.4",
     "gulp-tinify": "^1.0.2",
     "gulp-uglify": "^3.0.1",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "jquery-mask-plugin": "^1.14.15",
     "merge-stream": "^1.0.1",
     "mq4-hover-shim": "^0.3.0",
